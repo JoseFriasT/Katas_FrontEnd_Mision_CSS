@@ -1,0 +1,340 @@
+
+section{
+    width: 850px;
+    height: 850px;
+}
+
+
+.fondoDoctora{
+    background: linear-gradient(109deg, rgba(10,152,230,1) 0%, rgba(90,156,231,1) 30%, rgba(45,109,221,1) 71%);
+    position: absolute;
+    top: 135px;
+    right: 0px;
+}
+
+.fondoMenu{
+    background: linear-gradient(109deg, rgba(255,255,255,1) 1%, rgba(245,250,255,1) 4%, rgba(217,232,247,1) 14%, rgba(231,242,252,1) 87%);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.Imagendoctora{
+    position: absolute;
+    top: 195px;
+    right: -150px;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#menu
+{
+    position: relative;
+    top: 30px;
+    left: 265px;
+    margin: auto;
+    width: 850px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+ul, ol {
+    list-style: none;}
+
+.menuDesplegable li a{
+    background-color: none;
+    color: #6d7b93;
+    width: 105px;
+    text-decoration: none;
+    padding: 10px 35px;
+    display: block;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position:relative;
+    font-weight: 700;
+}
+
+.menuDesplegable li a:hover{
+    background-color: #a8a9aa;
+
+}
+
+.menuDesplegable > li{
+    float: left;
+}
+
+.menuDesplegable li ul{
+    display: none;
+    position:absolute;
+    min-width: 140px;
+}
+
+.menuDesplegable li:hover > ul{
+    display: block;
+}
+
+
+.boton {
+    background-color: #2848c6;
+    color: #ffff;
+    width: 80px;
+    text-decoration: none;
+    padding: 20px 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 6%;
+    position: relative;
+    top: 5px;
+    left: 40px;
+    margin: auto;
+    width: 800px;
+    font-weight: 700;
+    box-shadow: 0px 5px 5px -3px black;
+    
+}
+
+
+.Inicio {
+    background-color: none;
+    color: #2848c6;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    top: 70px;
+    left: 200px;
+    margin: auto;
+    width: 800px;
+    font-weight: 700;
+    font-size: 20px;
+    
+}
+
+
+#textleft{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    text-align: left;
+    top: 180px;
+    left: 0px;
+    margin: 100;
+    width: 500px;
+    
+}
+
+.Textos h1 {
+    color: #1f3e72;
+    text-decoration: none;
+    text-align: left;
+    position: relative;
+    top: 0px;
+    left: 200px;   
+    font-size: 70px;
+    font-weight: 700;
+    
+}
+
+.Textos p {
+    color: #6d7b93;
+    text-decoration: none;
+    text-align: justify;
+    position: relative;
+    top: 40px;
+    left: 200px;   
+    font-size: 20px;
+    line-height: 1.5; 
+    margin: 100;
+    width: 380px;
+    
+}
+
+.Textos a {
+    color: #1f3e72;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    top: 80px;
+    left: 200px;   
+    font-size: 15px;
+    font-weight: 700;
+    margin: 100;
+    padding: 10px 40px;
+    
+}
+
+.iconoestrella{
+    position: absolute;
+    top: 340px;
+    left: 400px;   
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
+.iconoescudo{
+    position: absolute;
+    top: 340px;
+    left: 200px;   
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
+.iconoreloj{
+    position: absolute;
+    top: 720px;
+    left: 200px;   
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
+.reloj{
+    color: #1f3e72;
+    text-align: center;
+    position: relative;
+    top: 400px;
+    left: 210px;   
+    font-size: 22px;
+    font-weight: 700;
+    margin: 100;
+    padding: 10px 40px;
+    
+}
+
+
+.fondoTrianguloA{
+    position: absolute;
+    top: 135px;
+    left: 120px;
+    width: 0px;
+    height: 0px;
+    border-top: 80px solid #eaebef;
+    border-left: 90px solid transparent;
+    border-right: 90px solid transparent;
+}
+
+.fondoTrianguloB{
+    position: absolute;
+    top: 420px;
+    left: 810px;
+    width: 0px;
+    height: 0px;
+    border-right: 140px solid #eaebef;
+    border-top: 150px solid transparent;
+    border-bottom: 150px solid transparent;
+}
+
+.fondoCalendario{
+    background: white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: auto;
+    width: 1200px;
+    height: 150px;
+    box-shadow: 0px 10px 10px -6px black;
+    opacity: 0.6;
+}
+
+#Calendar
+{
+    position: relative;
+    top: 450px;
+    left: -150px;
+    margin: auto;
+    width: 1100px;
+}
+
+.Calendario li{
+    color: #6d7b93;
+    width: 150px;
+    text-decoration: none;
+    padding: 55px 80px;
+    display: block;
+    font-size: 22px;
+    position:relative;
+}
+
+.Calendario li:hover{
+    background-color: #a8a9aa;
+
+}
+
+.Calendario > li{
+    float: left;
+}
+
+.Calendario a {
+    float: left;
+}
+
+
+.pos{
+
+    position:absolute;
+    top: 45px;
+    left: 950px;
+    margin: auto;
+    width: 120px;
+    text-align: center;
+}
+
+.iconolocation{
+    position: absolute;
+    top: 45px;
+    left: 25px;   
+    font-size: 20px;
+    font-weight: 700;  
+    
+}
+
+.iconocalendario{
+    position: absolute;
+    top: 45px;
+    left: 338px;   
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
+.iconolapiz{
+    position: absolute;
+    top: 45px;
+    left: 648px;   
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
+#CalendarB
+{
+    position: relative;
+    top: 400px;
+    left: -80px;
+    margin: auto;
+    width: 1200px;
+}
+
+.CalendarioB li{
+    color: #1f3e72;
+    width: 180px;
+    text-decoration: none;
+    padding: 0px 65px;
+    display: block;
+    font-size: 25px;
+    position:relative;
+    font-weight: 700;
+}
+
+.CalendarioB li:hover{
+    background-color: #a8a9aa;
+
+}
+
+.CalendarioB > li{
+    float: left;
+}
+
+.CalendarioB a {
+    float: left;
+}

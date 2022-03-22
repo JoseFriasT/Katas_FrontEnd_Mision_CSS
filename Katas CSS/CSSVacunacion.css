@@ -1,7 +1,22 @@
+body { 
+    
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 1700px; 
+    margin: 0;
+    padding: 0;
+ }
 
 section{
-    width: 850px;
+    width: 950px;
     height: 850px;
+}
+
+.fondoIzquierdo{
+    position: relative;
+    top: 0px;
+    right: 0px;
 }
 
 
@@ -9,20 +24,22 @@ section{
     background: linear-gradient(109deg, rgba(10,152,230,1) 0%, rgba(90,156,231,1) 30%, rgba(45,109,221,1) 71%);
     position: absolute;
     top: 135px;
-    right: 0px;
+    right: -79px;
 }
 
 .fondoMenu{
     background: linear-gradient(109deg, rgba(255,255,255,1) 1%, rgba(245,250,255,1) 4%, rgba(217,232,247,1) 14%, rgba(231,242,252,1) 87%);
     position: absolute;
     top: 0px;
-    right: 0px;
+    right: -79px;
+    width: 950px;
+    height: 135px;
 }
 
 .Imagendoctora{
     position: absolute;
-    top: 195px;
-    right: -150px;
+    bottom: 0px;
+    left: 100px;
 }
 
 *{
@@ -33,8 +50,8 @@ section{
 #menu
 {
     position: relative;
-    top: 30px;
-    left: 265px;
+    top: 50px;
+    left: -210px;
     margin: auto;
     width: 850px;
     font-family:'Courier New', Courier, monospace;
@@ -57,6 +74,7 @@ ul, ol {
 
 .menuDesplegable li a:hover{
     background-color: #a8a9aa;
+    color: white;
 
 }
 
@@ -95,12 +113,11 @@ ul, ol {
 
 
 .Inicio {
-    background-color: none;
     color: #2848c6;
     text-decoration: none;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    position: relative;
-    top: 70px;
+    position: absolute;
+    top: 60px;
     left: 200px;
     margin: auto;
     width: 800px;
@@ -112,9 +129,9 @@ ul, ol {
 
 #textleft{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    position: relative;
+    position: absolute;
     text-align: left;
-    top: 180px;
+    top: 250px;
     left: 0px;
     margin: 100;
     width: 500px;
@@ -136,14 +153,13 @@ ul, ol {
 .Textos p {
     color: #6d7b93;
     text-decoration: none;
-    text-align: justify;
     position: relative;
     top: 40px;
     left: 200px;   
     font-size: 20px;
     line-height: 1.5; 
     margin: 100;
-    width: 380px;
+    width: 400px;
     
 }
 
@@ -163,7 +179,7 @@ ul, ol {
 
 .iconoestrella{
     position: absolute;
-    top: 340px;
+    top: 320px;
     left: 400px;   
     font-size: 20px;
     font-weight: 700;
@@ -172,7 +188,7 @@ ul, ol {
 
 .iconoescudo{
     position: absolute;
-    top: 340px;
+    top: 320px;
     left: 200px;   
     font-size: 20px;
     font-weight: 700;
@@ -181,7 +197,7 @@ ul, ol {
 
 .iconoreloj{
     position: absolute;
-    top: 720px;
+    top: 740px;
     left: 200px;   
     font-size: 20px;
     font-weight: 700;
@@ -192,7 +208,7 @@ ul, ol {
     color: #1f3e72;
     text-align: center;
     position: relative;
-    top: 400px;
+    top: 750px;
     left: 210px;   
     font-size: 22px;
     font-weight: 700;
@@ -215,13 +231,21 @@ ul, ol {
 
 .fondoTrianguloB{
     position: absolute;
-    top: 420px;
-    left: 810px;
+    top: 310px;
+    left: -160px;
     width: 0px;
     height: 0px;
-    border-right: 140px solid #eaebef;
+    border-right: 160px solid #eaebef;
     border-top: 150px solid transparent;
     border-bottom: 150px solid transparent;
+}
+
+
+
+.fondoCita{
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 
 .fondoCalendario{
@@ -230,35 +254,30 @@ ul, ol {
     top: 0px;
     left: 0px;
     margin: auto;
-    width: 1200px;
+    width: 1150px;
     height: 150px;
     box-shadow: 0px 10px 10px -6px black;
-    opacity: 0.6;
+    opacity: 0.8;
 }
 
 #Calendar
 {
-    position: relative;
-    top: 450px;
-    left: -150px;
+    position: absolute;
+    top: 800px;
+    left: 200px;
     margin: auto;
     width: 1100px;
 }
 
 .Calendario li{
-    color: #6d7b93;
+    color: #8b9195;
     width: 150px;
-    text-decoration: none;
     padding: 55px 80px;
-    display: block;
     font-size: 22px;
-    position:relative;
+    font-weight: 700;
+    opacity: 0.9;
 }
 
-.Calendario li:hover{
-    background-color: #a8a9aa;
-
-}
 
 .Calendario > li{
     float: left;
@@ -304,13 +323,14 @@ ul, ol {
     font-size: 20px;
     font-weight: 700;
     
+    
 }
 
 #CalendarB
 {
-    position: relative;
-    top: 400px;
-    left: -80px;
+    position: absolute;
+    top: 890px;
+    left: 230px;
     margin: auto;
     width: 1200px;
 }
@@ -326,10 +346,6 @@ ul, ol {
     font-weight: 700;
 }
 
-.CalendarioB li:hover{
-    background-color: #a8a9aa;
-
-}
 
 .CalendarioB > li{
     float: left;
@@ -338,3 +354,533 @@ ul, ol {
 .CalendarioB a {
     float: left;
 }
+
+.logos{
+    position: absolute;
+    top: 0;
+    left: 150px;   
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
+
+.fondodosIzquierdo{
+    position: relative;
+    top: 250px;
+    right: 0px;
+}
+
+.fondoTrianguloC{
+    position: absolute;
+    top: 250px;
+    right: -829px;
+    width: 0px;
+    height: 0px;
+    border-right: 130px solid #eaebef;
+    border-top: 140px solid transparent;
+    border-bottom: 140px solid transparent;
+}
+
+.fondoLinea{
+    position: absolute;
+    top: 390px;
+    right: -829px;
+    width: 850px; 
+    height: 3px; 
+    background: #f1f2f6;
+}
+
+#textlefttwo{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    text-align: left;
+    top: 350px;
+    left: 0px;
+    margin: 100;
+    width: 800px;
+    
+}
+
+.TextosDos h1 {
+    color: #1f3e72;
+    text-decoration: none;
+    text-align: left;
+    position: relative;
+    top: 10px;
+    left: 200px;   
+    font-size: 50px;
+    font-weight: 700;
+    
+}
+
+.TextosDos p {
+    color: #6d7b93;
+    text-decoration: none;
+    position: relative;
+    top: 70px;
+    left: 200px;   
+    font-size: 21px;
+    line-height: 1.5; 
+    margin: 100;
+    width: 600px;
+    
+}
+
+.cuadrotexto{
+    background: white;
+    position: absolute;
+    top:350px;
+    margin: auto;
+    width: 320px;
+    height: 400px;
+    border: 3px solid #f1f2f6;
+    border-radius: 4%;
+}
+
+.cuadroA{
+    position: absolute;
+    left: 200px;
+}
+
+.cuadroB{
+    position: absolute;
+    left: 570px;
+}
+
+.cuadroC{
+    position: absolute;
+    left: 935px;
+}
+
+
+.cuadroD{
+    position: absolute;
+    left: 1300px;
+}
+
+
+
+.TextosDos h3 {
+    color: #1f3e72;
+    text-decoration: none;
+    text-align: left;
+    position: absolute;
+    top: 130px;
+    left: 40px;   
+    font-size: 26px;
+    width: 210px;
+    
+}
+
+.TextosDos a {
+    color: #6d7b96;
+    text-decoration: none;
+    position: absolute;
+    top: 200px;
+    left: 40px;   
+    font-size: 17px;
+    line-height: 1.5; 
+    width: 230px;
+    
+}
+
+.iconoa{
+    position: absolute;
+    left: 40px;
+    top: 35px;
+}
+
+.iconob{
+    position: absolute;
+    left: 40px;
+    top: 35px;
+}
+
+.iconoc{
+    position: absolute;
+    left: 40px;
+    top: 35px;
+}
+
+.iconod{
+    position: absolute;
+    left: 40px;
+    top: 35px;
+}
+
+
+.fondoDerecho{
+    position: relative;
+    top: 600px;
+    right: 0px;
+}
+
+.mujer{
+    position: absolute;
+    left: 0px;
+    top: 280px;
+    
+}
+
+.fondoTrianguloD{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-left: 130px solid #eaebef;
+    border-top: 140px solid transparent;
+    border-bottom: 140px solid transparent;
+}
+
+.fondoLineaD{
+    position: absolute;
+    top: 138px;
+    left: 0px;
+    width: 750px; 
+    height: 3px; 
+    background: #f1f2f6;
+}
+
+#textleftthree{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    text-align: left;
+    top: 100px;
+    left: 710px;
+    margin: 100;
+    width: 800px;
+    
+}
+
+.TextosTres h1 {
+    color: #1f3e72;
+    text-decoration: none;
+    text-align: left;
+    position: relative;
+    top: 10px;
+    left: 200px;   
+    font-size: 50px;
+    font-weight: 700;
+    
+}
+
+.TextosTres p {
+    color: #6d7b93;
+    text-decoration: none;
+    position: relative;
+    top: 70px;
+    left: 200px;   
+    font-size: 21px;
+    line-height: 1.5; 
+    margin: 100;
+    width: 570px;
+    
+}
+
+
+.TextosTres h3 {
+    color: #1f3e72;
+    text-decoration: none;
+    text-align: left;
+    position: relative;
+    top: 15px;
+    left: 80px;   
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
+
+.cuadrotexto2{
+    background: white;
+    position: absolute;
+    margin: auto;
+    left: 200px;
+    width: 480px;
+    height: 50px;
+    border: 3px solid #f1f2f6;
+    border-radius: 4%;
+}
+
+.cuadro1{
+    position: absolute;
+    top: 380px;
+}
+
+.cuadro2{
+    position: absolute;
+    top: 480px;
+}
+
+.cuadro3{
+    position: absolute;
+    top: 580px;
+}
+
+
+.cuadro4{
+    position: absolute;
+    top: 680px;
+}
+
+.cuadro5{
+    position: absolute;
+    top: 780px;
+}
+
+.icono1{
+    position: absolute;
+    left: 20px;
+    top: 2px;
+}
+
+.icono2{
+    position: absolute;
+    left: 20px;
+    top: 2px;
+}
+
+.icono3{
+    position: absolute;
+    left: 20px;
+    top: 2px;
+}
+
+.icono4{
+    position: absolute;
+    left: 20px;
+    top: 2px;
+}
+
+.icono5{
+    position: absolute;
+    left: 20px;
+    top: 2px;
+}
+
+.fondodosIzquierdo2{
+    position: relative;
+    top: 700px;
+    right: 0px;
+}
+
+.contact{
+    background: white;
+    position: absolute;
+    top:480px;
+    margin: auto;
+    width: 320px;
+    height: 250px;
+    border: 3px solid #f1f2f6;
+    border-radius: 4%;
+}
+
+.contactA{
+    position: absolute;
+    left: 200px;
+}
+
+.contactB{
+    position: absolute;
+    left: 570px;
+}
+
+.contactC{
+    position: absolute;
+    left: 200px;
+    top: 780px;
+}
+
+
+.contactD{
+    position: absolute;
+    left: 570px;
+    top:780px;
+}
+
+
+.contacta{
+    position: absolute;
+    left: 40px;
+    top: 35px;
+}
+
+.contactb{
+    position: absolute;
+    left: 40px;
+    top: 35px;
+}
+
+.contactc{
+    position: absolute;
+    left: 40px;
+    top: 35px;
+}
+
+.contactd{
+    position: absolute;
+    left: 40px;
+    top: 35px;
+}
+
+.doctor{
+    position: absolute;
+    left: 938px;
+    top: 550px;
+    
+}
+
+.TextosCuatro h3 {
+    color: #1f3e72;
+    text-decoration: none;
+    text-align: left;
+    position: relative;
+    top: 15px;
+    left: 80px;   
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
+.contact h3{
+    top:40px;
+    left: 150px;
+}
+
+.contact p{
+    top:90px;
+    left: 150px;
+    font-size: 15px;
+}
+
+.callboton {
+    background-color: #d9e8f7;
+    color: #2848c6;
+    text-decoration: none;
+    width: 200px;
+    padding: 20px 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 3%;
+    font-weight: 700;
+    position: absolute;
+    text-align: center;
+    
+}
+
+.posicionA {
+    top:980px;
+    left: 250px;
+}
+
+.posicionB {
+    top: 980px;
+    left: 620px;
+}
+
+.posicionC {
+    top:1280px;
+    left: 250px;
+}
+
+.posicionD {
+    top:1280px;
+    left: 620px;
+}
+
+.fondodosIzquierdo2  a:hover{
+    background-color: blue;
+    color: white;
+
+}
+
+.footer{
+    background: #eef3ff;
+    position: absolute;
+    top: 4850px;
+    right: -79px;
+    width: 1800px;
+    height: 450px;
+}
+
+.footer p{
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    width: 200px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.footer h3{
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    width: 200px;
+    font-size: 30px; 
+}
+
+.footer a{
+    position: absolute;
+    top: 400px;
+    left: 200px;
+    width: 400px;
+    font-size: 20px;
+}
+
+#foot
+{
+    position: relative;
+    top: 1850px;
+    left: 800px;
+    margin: auto;
+    width: 0px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.footMenu{
+    position: absolute;
+    top:-50px;
+    right: -79px;
+    width: 950px;
+    height: 135px;
+}
+
+#foot
+{
+    position: relative;
+    top: 4950px;
+    left: 50px;
+    margin: auto;
+    width: 850px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+.menufooter li a{
+    background-color: none;
+    color: #6d7b93;
+    width: 105px;
+    text-decoration: none;
+    padding: 10px 35px;
+    display: block;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position:relative;
+    font-weight: 700;
+}
+
+.menufooter li a:hover{
+    background-color: #a8a9aa;
+    color: white;
+
+}
+
+.menufooter > li{
+    float: left;
+}
+
+
+.menufooter li:hover > ul{
+    display: block;
+}
+
+
